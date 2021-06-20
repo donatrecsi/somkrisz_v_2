@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	font-family: 'Poppins', sans-serif;
 }
 
 .banner-home {
@@ -11,11 +12,10 @@ body {
 }
 
 .banner-home h1 {
-	font-family: 'Poppins', sans-serif;
 	text-align: center;
 	font-size: 3em;
 	margin-top: 0;
-	color: #CAABA2
+	color:#301814;
 }
 
 nav ul li a {
@@ -30,9 +30,22 @@ nav ul li a {
 
 nav ul li a:hover {
 	background-color: #30221B;
+	color: #FFFFFF;
 }
 
 nav ul {
 	list-style: none;
 	padding-left: 0;
+}
+
+@media screen and (min-width: 500px) {
+	nav ul {
+		display: flex;	
+	}
+	
+	nav ul li  {
+		flex: 1;
+		margin: 5px;
+		
+	}
 }
