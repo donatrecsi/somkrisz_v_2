@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+}
+
+.banner-home {
+	background-image: url("../somkrisz_v_2/assets/fa_2.jpg");
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	padding: 20px;
+}
+
+.banner-home h1 {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 3em;
+	margin-top: 0;
+	color: #CAABA2
+}
+
+nav ul li a {
+	text-decoration: none;
+	color:#F3F5FA;
+	background-color:#D0D1D4;
+	display: block;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	margin-bottom: 5px;
+}
+
+nav ul li a:hover {
+	background-color: #30221B;
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0;
+}
